@@ -33,9 +33,9 @@ The value under the label "Root" is the folder in your repo inside which the exi
 
 7.	Run the 'MigrateToVSTSWiki.exe' as shown below to copy the files from your existing wiki and copying them to the destination directory provided. During copying, the exe converts the pages to be compliant with VSTS wiki.
  
+' Format: MigrateToVSTSWiki.exe /source:LocationB /destination:LocationC '
 
-'Format: MigrateToVSTSWiki.exe /source:LocationB /destination:LocationC'
-> Eg: Here,
+Eg: In the example above:
 - "E:\wiki\sampleWiki\_extensionWiki" is the folder in which the existing wiki files are present.
 -	"E:\Temp\Wiki\New" is the empty folder into which the migrates files will get dropped.
  
