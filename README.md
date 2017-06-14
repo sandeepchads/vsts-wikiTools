@@ -1,4 +1,5 @@
 # Migrate pages from Wiki extension to new VSTS Wiki
+
 Migration of markdown pages from Wiki extension to VSTS wiki is a simple 4 step process:
 1.	Clone the VSTS Wiki 
 2.	Move & commit all markdown pages to VSTS Wiki
@@ -9,7 +10,9 @@ Here are the detailed steps for Wiki migration:
 
 1.	Goto Wiki* hub in VSTS.  Create your first Wiki page (You can create a dummy page and always delete it later)
  
-2.	Click on More -> Clone Wiki -> and clone your VSTS Wiki repo using git clone command. 
+2.	Click on More -> Clone Wiki -> and clone your VSTS Wiki repo.
+
+'git clone' 
 
 Let the clone location be "LocationA" with respect to the document. 
 E.g with respect to this document "C:\Users\sancha\WikiDemo.wiki"
@@ -31,13 +34,18 @@ The value under the label "Root" is the folder in your repo inside which the exi
 5.	Create an empty folder in any path of choice in your location machine and let that be "LocationC" with respect to the document.
  
 
-So just to summarize 
-Location A = VSTS Wiki 
-Location B = Wiki extension 
-Location C = Empty folder where we will run our migration tool
+**So just to summarize** 
+* Location A = VSTS Wiki 
+* Location B = Wiki extension 
+* Location C = Empty folder where we will run our migration tool'''
 
-THE GITHUB REPOSITORY WITH SOURCE CODE FOR THE MIGRATION TOOL
-https://github.com/Microsoft/vsts-wikiTools 
+
+**THE GITHUB REPOSITORY WITH SOURCE CODE FOR THE MIGRATION TOOL**
+https://github.com/Microsoft/vsts-wikiTools
+
+**MigrateToVSTSWiki.EXE PATH**
+<Update the path here>
+
  
  
 6.	Open command prompt in admin mode
